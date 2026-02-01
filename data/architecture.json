@@ -1,0 +1,105 @@
+{
+  "sections": [
+    { "id": "hero", "component": "Hero", "order": 1 },
+    { "id": "services", "component": "Services", "order": 2 },
+    { "id": "about", "component": "About", "order": 3 },
+    { "id": "gallery", "component": "Gallery", "order": 4 },
+    { "id": "transformations", "component": "BeforeAfterGallery", "order": 5 },
+    { "id": "team", "component": "Team", "order": 6 },
+    { "id": "testimonials", "component": "Testimonials", "order": 7 },
+    { "id": "contact", "component": "Contact", "order": 8 }
+  ],
+  "section_source": "fallback",
+  "layout": {
+    "selected": "glass",
+    "alternatives": ["magazine", "minimal"]
+  },
+  "components": {
+    "Hero": {
+      "variant": "HeroCentered",
+      "shadcn": ["Button"],
+      "custom": true
+    },
+    "Services": {
+      "variant": "ServicesGrid",
+      "shadcn": ["Card"],
+      "custom": true
+    },
+    "About": {
+      "variant": "AboutSplit",
+      "shadcn": [],
+      "custom": true
+    },
+    "Gallery": {
+      "variant": "GalleryGrid",
+      "shadcn": ["Dialog"],
+      "custom": true
+    },
+    "BeforeAfterGallery": {
+      "variant": "BeforeAfterGallery",
+      "shadcn": ["Slider"],
+      "custom": true
+    },
+    "Team": {
+      "variant": "TeamGrid",
+      "shadcn": ["Card", "Avatar"],
+      "custom": true
+    },
+    "Testimonials": {
+      "variant": "TestimonialsCarousel",
+      "shadcn": ["Card"],
+      "custom": true
+    },
+    "Contact": {
+      "variant": "ContactSplit",
+      "shadcn": ["Input", "Textarea", "Button", "Label"],
+      "custom": true
+    },
+    "Navigation": {
+      "variant": "NavTop",
+      "shadcn": ["Sheet"],
+      "custom": true
+    },
+    "Footer": {
+      "variant": "FooterSimple",
+      "shadcn": [],
+      "custom": true
+    }
+  },
+  "visual_specs": {
+    "animation_profile": "glass",
+    "entry_animation": "slide-up",
+    "card_style": "glass",
+    "button_style": "rounded",
+    "section_transition": "wave",
+    "decorative_elements": true,
+    "glass_effects": true,
+    "showHeroImage": true
+  },
+  "stickyCtaBar": {
+    "enabled": true,
+    "primaryCta": { "label": "Programeaza Grooming", "href": "#contact" },
+    "secondaryCta": { "label": "Suna Acum", "href": "tel:+40700000000" },
+    "phone": "+40 700 000 000",
+    "showOnScroll": true
+  },
+  "responsive": {
+    "mobile_first": true,
+    "breakpoints": ["sm", "md", "lg", "xl"],
+    "mobile": {
+      "hamburger_menu": true,
+      "sticky_cta": true,
+      "tap_target_min_px": 44
+    }
+  },
+  "shadcn_components": [
+    "Button",
+    "Card",
+    "Input",
+    "Textarea",
+    "Label",
+    "Dialog",
+    "Sheet",
+    "Avatar"
+  ]
+}

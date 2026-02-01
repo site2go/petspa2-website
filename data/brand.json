@@ -1,0 +1,78 @@
+{
+  "company_name": "PetSPA2",
+  "industry": "pet-grooming",
+  "brand_personality": "Professional yet warm and approachable pet care service. Conveys cleanliness, expertise, and genuine love for animals. Balances modern spa aesthetics with friendly, trustworthy service.",
+  "palettes": [
+    {
+      "id": "palette-1",
+      "name": "Fresh & Clean",
+      "reasoning": "Teal and green tones convey cleanliness and freshness, essential for a grooming salon. Blue accents add professionalism and trust. Perfect for positioning as a hygienic, professional service.",
+      "colors": {
+        "primary": "#0cb2ad",
+        "primary_foreground": "#ffffff",
+        "secondary": "#2ecc71",
+        "secondary_foreground": "#ffffff",
+        "accent": "#3498db",
+        "accent_foreground": "#ffffff",
+        "background": "#ffffff",
+        "foreground": "#121212",
+        "muted": "#f0f9f8",
+        "muted_foreground": "#4a5568"
+      },
+      "contrast_verified": true
+    },
+    {
+      "id": "palette-2",
+      "name": "Warm & Friendly",
+      "reasoning": "Warm orange and brown tones create an inviting, friendly atmosphere. These earthy colors connect with pet owners who value a homey, caring environment for their furry friends.",
+      "colors": {
+        "primary": "#f6ab4a",
+        "primary_foreground": "#362526",
+        "secondary": "#a77e50",
+        "secondary_foreground": "#ffffff",
+        "accent": "#fb8e28",
+        "accent_foreground": "#362526",
+        "background": "#fffbf5",
+        "foreground": "#362526",
+        "muted": "#f5ebe0",
+        "muted_foreground": "#5c4a3d"
+      },
+      "contrast_verified": true
+    },
+    {
+      "id": "palette-3",
+      "name": "Premium Pet Spa",
+      "reasoning": "Deep purple with pink accents positions the business as a luxury pet spa. Appeals to pet owners seeking premium pampering services for their beloved companions.",
+      "colors": {
+        "primary": "#421b42",
+        "primary_foreground": "#ffffff",
+        "secondary": "#ff72d9",
+        "secondary_foreground": "#1a1a1a",
+        "accent": "#9b59b6",
+        "accent_foreground": "#ffffff",
+        "background": "#ffffff",
+        "foreground": "#1a1a1a",
+        "muted": "#f8f0f8",
+        "muted_foreground": "#5c4a5c"
+      },
+      "contrast_verified": true
+    }
+  ],
+  "typography": {
+    "heading": "Nunito",
+    "body": "Open Sans",
+    "style": "friendly",
+    "reasoning": "Nunito's rounded letterforms create a warm, approachable feeling perfect for pet services. Open Sans provides excellent readability while maintaining a friendly tone.",
+    "google_import": "@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap');"
+  },
+  "imagery_style": "High-quality photos of well-groomed, happy pets (dogs and cats primarily). Before/after transformation shots. Clean, bright studio-style photography with soft lighting. Images should showcase professional grooming results while capturing the pets' personalities.",
+  "visual_profile": {
+    "animation_intensity": "moderate",
+    "preferred_effects": ["soft-shadows", "glassmorphism", "subtle-gradients"],
+    "section_transition": "wave",
+    "layout_profile": "modern"
+  },
+  "research_informed": {
+    "competitor_screenshots_reviewed": false
+  }
+}

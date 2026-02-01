@@ -1,0 +1,124 @@
+{
+  "hero_image": {
+    "url": "https://images.pexels.com/photos/6816860/pexels-photo-6816860.jpeg",
+    "alt": "Caine fericit si bine ingrijit la salon de grooming",
+    "pexels_id": "6816860",
+    "search_query": "happy groomed dog salon"
+  },
+  "about_image": {
+    "url": "https://images.pexels.com/photos/6131557/pexels-photo-6131557.jpeg",
+    "alt": "Groomer profesionist ingrijind un caine cu dragoste",
+    "pexels_id": "6131557",
+    "search_query": "dog groomer professional"
+  },
+  "services_images": [
+    {
+      "service": "Toaletaj Complet",
+      "url": "https://images.pexels.com/photos/5731872/pexels-photo-5731872.jpeg",
+      "alt": "Toaletaj complet pentru caini",
+      "pexels_id": "5731872"
+    },
+    {
+      "service": "Baie si Spalare",
+      "url": "https://images.pexels.com/photos/5731866/pexels-photo-5731866.jpeg",
+      "alt": "Caine in timpul baiei profesionale",
+      "pexels_id": "5731866"
+    },
+    {
+      "service": "Tuns si Coafat",
+      "url": "https://images.pexels.com/photos/6816862/pexels-photo-6816862.jpeg",
+      "alt": "Tunsoare profesionala pentru caini",
+      "pexels_id": "6816862"
+    },
+    {
+      "service": "Ingrijire Unghii si Urechi",
+      "url": "https://images.pexels.com/photos/6131562/pexels-photo-6131562.jpeg",
+      "alt": "Ingrijire unghii la salon grooming",
+      "pexels_id": "6131562"
+    },
+    {
+      "service": "Tratamente SPA",
+      "url": "https://images.pexels.com/photos/5731869/pexels-photo-5731869.jpeg",
+      "alt": "Tratament spa relaxant pentru caini",
+      "pexels_id": "5731869"
+    },
+    {
+      "service": "Grooming Pisici",
+      "url": "https://images.pexels.com/photos/5731874/pexels-photo-5731874.jpeg",
+      "alt": "Pisica primind ingrijire profesionala",
+      "pexels_id": "5731874"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.pexels.com/photos/4587998/pexels-photo-4587998.jpeg",
+      "alt": "Poodle alb dupa tunsoare profesionala",
+      "category": "transformari",
+      "pexels_id": "4587998"
+    },
+    {
+      "url": "https://images.pexels.com/photos/5731875/pexels-photo-5731875.jpeg",
+      "alt": "Golden retriever ingrijit profesional",
+      "category": "transformari",
+      "pexels_id": "5731875"
+    },
+    {
+      "url": "https://images.pexels.com/photos/4588047/pexels-photo-4588047.jpeg",
+      "alt": "Bichon Frise cu tunsoare eleganta",
+      "category": "rase",
+      "pexels_id": "4588047"
+    },
+    {
+      "url": "https://images.pexels.com/photos/5731877/pexels-photo-5731877.jpeg",
+      "alt": "Interior modern salon grooming",
+      "category": "salon",
+      "pexels_id": "5731877"
+    },
+    {
+      "url": "https://images.pexels.com/photos/6131007/pexels-photo-6131007.jpeg",
+      "alt": "Caine mare dupa sesiune de grooming",
+      "category": "transformari",
+      "pexels_id": "6131007"
+    },
+    {
+      "url": "https://images.pexels.com/photos/5731870/pexels-photo-5731870.jpeg",
+      "alt": "Yorkshire terrier bine ingrijit",
+      "category": "rase",
+      "pexels_id": "5731870"
+    }
+  ],
+  "team_images": [
+    {
+      "member": "Ana Marinescu",
+      "url": "https://images.pexels.com/photos/6131561/pexels-photo-6131561.jpeg",
+      "alt": "Groomer profesionist feminin",
+      "pexels_id": "6131561"
+    },
+    {
+      "member": "Mihai Stanescu",
+      "url": "https://images.pexels.com/photos/6131560/pexels-photo-6131560.jpeg",
+      "alt": "Groomer profesionist masculin",
+      "pexels_id": "6131560"
+    },
+    {
+      "member": "Cristina Pavel",
+      "url": "https://images.pexels.com/photos/6131559/pexels-photo-6131559.jpeg",
+      "alt": "Groomer junior feminin",
+      "pexels_id": "6131559"
+    }
+  ],
+  "transformations": [
+    {
+      "before_url": "https://images.pexels.com/photos/5731873/pexels-photo-5731873.jpeg",
+      "after_url": "https://images.pexels.com/photos/4587998/pexels-photo-4587998.jpeg",
+      "caption": "Fluffy - Toaletaj complet Poodle",
+      "category": "toaletaj-complet"
+    },
+    {
+      "before_url": "https://images.pexels.com/photos/5731871/pexels-photo-5731871.jpeg",
+      "after_url": "https://images.pexels.com/photos/5731875/pexels-photo-5731875.jpeg",
+      "caption": "Max - Tratament de desparosire",
+      "category": "desparosire"
+    }
+  ]
+}

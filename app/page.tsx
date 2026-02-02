@@ -1,12 +1,20 @@
+"use client";
+
+// Layout System
+import { useLayoutConfig } from "@/components/LayoutContext";
+import {
+  getHeroComponent,
+  getServicesComponent,
+  getGalleryComponent,
+} from "@/lib/layoutComponents";
+import LayoutWrapper from "@/components/LayoutWrapper";
+
 // Navigation
 import NavTop from "@/components/Navigation/NavTop";
 import StickyCtaBar from "@/components/Navigation/StickyCtaBar";
 
-// Section Components
-import HeroCentered from "@/components/Hero/HeroCentered";
-import ServicesGrid from "@/components/Services/ServicesGrid";
+// Static Section Components (these don't have layout variants yet)
 import AboutSplit from "@/components/About/AboutSplit";
-import GalleryGrid from "@/components/Gallery/GalleryGrid";
 import BeforeAfterGallery from "@/components/Comparison/BeforeAfterGallery";
 import TeamShowcase from "@/components/Team/TeamShowcase";
 import TestimonialsCarousel from "@/components/Testimonials/TestimonialsCarousel";
@@ -268,8 +276,16 @@ const stickyCtaBar = {
 // ============================================================================
 
 export default function Home() {
+  // Get the current layout configuration
+  const config = useLayoutConfig();
+
+  // DYNAMIC COMPONENTS - These change based on the selected layout
+  const HeroComponent = getHeroComponent(config.heroComponent);
+  const ServicesComponent = getServicesComponent(config.servicesComponent);
+  const GalleryComponent = getGalleryComponent(config.galleryComponent);
+
   return (
-    <>
+    <LayoutWrapper>
       {/* Navigation */}
       <NavTop
         logo={navigation.logo}
@@ -278,8 +294,8 @@ export default function Home() {
       />
 
       <main id="main-content">
-        {/* Hero Section */}
-        <HeroCentered
+        {/* Hero Section - DYNAMIC */}
+        <HeroComponent
           headline={hero.headline}
           subheadline={hero.subheadline}
           backgroundImage={hero.backgroundImage}
@@ -288,8 +304,8 @@ export default function Home() {
           secondaryCTA={hero.secondaryCTA}
         />
 
-        {/* Services Section */}
-        <ServicesGrid
+        {/* Services Section - DYNAMIC */}
+        <ServicesComponent
           title={services.title}
           subtitle={services.subtitle}
           services={services.items}
@@ -304,8 +320,8 @@ export default function Home() {
           stats={about.stats}
         />
 
-        {/* Gallery Section */}
-        <GalleryGrid
+        {/* Gallery Section - DYNAMIC */}
+        <GalleryComponent
           title={gallery.title}
           subtitle={gallery.subtitle}
           items={gallery.items}
@@ -360,6 +376,6 @@ export default function Home() {
         phone={stickyCtaBar.phone}
         showOnScroll={stickyCtaBar.showOnScroll}
       />
-    </>
+    </LayoutWrapper>
   );
 }

@@ -5,12 +5,11 @@ const nextConfig = {
 
   // Image optimization configuration
   images: {
-    // Add remote image domains if needed
     remotePatterns: [
-      // {
-      //   protocol: 'https',
-      //   hostname: 'example.com',
-      // },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+      },
     ],
     // Optimize images
     formats: ["image/avif", "image/webp"],

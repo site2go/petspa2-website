@@ -178,31 +178,40 @@ const heroComponents: Record<HeroComponent, ComponentType<any>> = {
   // Original 4 hero components
   HeroMinimal: dynamic(() => import("@/components/Hero/HeroMinimal"), {
     loading: () => null,
+    ssr: false,
   }),
   HeroCentered: dynamic(() => import("@/components/Hero/HeroCentered"), {
     loading: () => null,
+    ssr: false,
   }),
   HeroSplit: dynamic(() => import("@/components/Hero/HeroSplit"), {
     loading: () => null,
+    ssr: false,
   }),
   HeroFullBleed: dynamic(() => import("@/components/Hero/HeroFullBleed"), {
     loading: () => null,
+    ssr: false,
   }),
   // New 5 hero components for structural layouts
   HeroBrutalist: dynamic(() => import("@/components/Hero/HeroBrutalist"), {
     loading: () => null,
+    ssr: false,
   }),
   HeroBento: dynamic(() => import("@/components/Hero/HeroBento"), {
     loading: () => null,
+    ssr: false,
   }),
   HeroFullscreen: dynamic(() => import("@/components/Hero/HeroFullscreen"), {
     loading: () => null,
+    ssr: false,
   }),
   HeroHorizontal: dynamic(() => import("@/components/Hero/HeroHorizontal"), {
     loading: () => null,
+    ssr: false,
   }),
   HeroChapter: dynamic(() => import("@/components/Hero/HeroChapter"), {
     loading: () => null,
+    ssr: false,
   }),
 };
 
@@ -215,31 +224,40 @@ const servicesComponents: Record<ServicesComponent, ComponentType<any>> = {
   // Original 4 services components
   ServicesGrid: dynamic(() => import("@/components/Services/ServicesGrid"), {
     loading: () => null,
+    ssr: false,
   }),
   ServicesAlternating: dynamic(() => import("@/components/Services/ServicesAlternating"), {
     loading: () => null,
+    ssr: false,
   }),
   ServicesLarge: dynamic(() => import("@/components/Services/ServicesLarge"), {
     loading: () => null,
+    ssr: false,
   }),
   ServicesHorizontal: dynamic(() => import("@/components/Services/ServicesHorizontal"), {
     loading: () => null,
+    ssr: false,
   }),
   // New 5 services components for structural layouts
   ServicesBento: dynamic(() => import("@/components/Services/ServicesBento"), {
     loading: () => null,
+    ssr: false,
   }),
   ServicesCards: dynamic(() => import("@/components/Services/ServicesCards"), {
     loading: () => null,
+    ssr: false,
   }),
   ServicesMasonry: dynamic(() => import("@/components/Services/ServicesMasonry"), {
     loading: () => null,
+    ssr: false,
   }),
   ServicesFullscreen: dynamic(() => import("@/components/Services/ServicesFullscreen"), {
     loading: () => null,
+    ssr: false,
   }),
   ServicesTimeline: dynamic(() => import("@/components/Services/ServicesTimeline"), {
     loading: () => null,
+    ssr: false,
   }),
 };
 
@@ -251,12 +269,15 @@ const servicesComponents: Record<ServicesComponent, ComponentType<any>> = {
 const galleryComponents: Record<GalleryComponent, ComponentType<any>> = {
   GalleryGrid: dynamic(() => import("@/components/Gallery/GalleryGrid"), {
     loading: () => null,
+    ssr: false,
   }),
   GalleryMasonry: dynamic(() => import("@/components/Gallery/GalleryMasonry"), {
     loading: () => null,
+    ssr: false,
   }),
   GalleryCarousel: dynamic(() => import("@/components/Gallery/GalleryCarousel"), {
     loading: () => null,
+    ssr: false,
   }),
 };
 
@@ -268,9 +289,11 @@ const galleryComponents: Record<GalleryComponent, ComponentType<any>> = {
 const comparisonComponents: Record<ComparisonComponent, ComponentType<any>> = {
   BeforeAfterSlider: dynamic(() => import("@/components/Comparison/BeforeAfterGallery"), {
     loading: () => null,
+    ssr: false,
   }),
   BeforeAfterGallery: dynamic(() => import("@/components/Comparison/BeforeAfterGallery"), {
     loading: () => null,
+    ssr: false,
   }),
 };
 
@@ -282,13 +305,16 @@ const comparisonComponents: Record<ComparisonComponent, ComponentType<any>> = {
 const teamComponents: Record<TeamComponent, ComponentType<any>> = {
   TeamShowcase: dynamic(() => import("@/components/Team/TeamShowcase"), {
     loading: () => null,
+    ssr: false,
   }),
   // TeamCarousel and TeamFeatured use the same component - variant is passed via props
   TeamCarousel: dynamic(() => import("@/components/Team/TeamShowcase"), {
     loading: () => null,
+    ssr: false,
   }),
   TeamFeatured: dynamic(() => import("@/components/Team/TeamShowcase"), {
     loading: () => null,
+    ssr: false,
   }),
 };
 
@@ -298,7 +324,7 @@ const teamComponents: Record<TeamComponent, ComponentType<any>> = {
 
 const HeroCarouselComponent: ComponentType<HeroCarouselProps> = dynamic(
   () => import("@/components/Hero/HeroCarousel"),
-  { loading: () => null }
+  { loading: () => null, ssr: false }
 );
 
 // ============================================
